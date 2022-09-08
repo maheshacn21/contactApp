@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSecondary"
+    android:orientation="vertical"
+    tools:context=".Hello">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp"
+        app:srcCompat="@drawable/ic_photo"
+        android:background="@color/colorTextSecondary"
+        android:layout_marginBottom="@dimen/_30sdp"/>
+
+
+    <LinearLayout
+        android:id="@+id/displayLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/_10sdp"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="@dimen/_10sdp"
+            android:text="Name "
+            android:textColor="@color/colorTextPrimary"
+            android:textSize="@dimen/_22sdp" />
+
+        <TextView
+            android:id="@+id/displayName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:text="hello"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorTextSecondary"
+            android:textSize="@dimen/_22sdp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/displayLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/_10sdp"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="@dimen/_10sdp"
+            android:text="Phone"
+            android:textColor="@color/colorTextPrimary"
+            android:textSize="@dimen/_22sdp" />
+
+        <TextView
+            android:id="@+id/displayNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:text="00000000000"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorTextSecondary"
+            android:textSize="@dimen/_22sdp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/editLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/_10sdp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="@dimen/_10sdp"
+            android:text="Name"
+            android:textColor="@color/colorTextPrimary"
+            android:textSize="@dimen/_22sdp" />
+
+        <EditText
+            android:id="@+id/editName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:layout_weight="6"
+            android:scrollbars="none"
+            android:text="hello"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorTextSecondary"
+            android:textSize="@dimen/_22sdp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/editLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/_10sdp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="@dimen/_10sdp"
+            android:text="Phone"
+            android:textColor="@color/colorTextPrimary"
+            android:textSize="@dimen/_22sdp" />
+
+        <EditText
+            android:id="@+id/editNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:layout_weight="6"
+            android:text="0000000000"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorTextSecondary"
+            android:textSize="@dimen/_22sdp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/updateButton"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:backgroundTint="#00FFFFFF"
+        android:padding="@dimen/_10sdp"
+        android:text="Update"
+        android:textAlignment="center"
+        android:textColor="#36FF3F"
+        android:textSize="@dimen/_16sdp"
+        android:visibility="gone" />
+
+
+</LinearLayout>

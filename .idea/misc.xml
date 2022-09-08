@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/mahes/AndroidStudioProjects/contactApp/app/src/main/res/drawable/dialog_background.xml" value="0.1" />
+        <entry key="..\:/Users/mahes/AndroidStudioProjects/contactApp/app/src/main/res/drawable/input_field_background.xml" value="0.207" />
+        <entry key="..\:/Users/mahes/AndroidStudioProjects/contactApp/app/src/main/res/layout/activity_add_edit_contact.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/mahes/AndroidStudioProjects/contactApp/app/src/main/res/layout/activity_contact_edit.xml" value="0.2" />
+        <entry key="..\:/Users/mahes/AndroidStudioProjects/contactApp/app/src/main/res/layout/activity_contact_edit2.xml" value="0.2" />
+        <entry key="..\:/Users/mahes/AndroidStudioProjects/contactApp/app/src/main/res/layout/activity_hello.xml" value="0.1859375" />
+        <entry key="..\:/Users/mahes/AndroidStudioProjects/contactApp/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/mahes/AndroidStudioProjects/contactApp/app/src/main/res/layout/content_contact_edit.xml" value="0.2" />
+        <entry key="..\:/Users/mahes/AndroidStudioProjects/contactApp/app/src/main/res/layout/dialog2_layout.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/mahes/AndroidStudioProjects/contactApp/app/src/main/res/layout/dialog_layout.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/mahes/AndroidStudioProjects/contactApp/app/src/main/res/layout/edit_contact.xml" value="0.2" />
+        <entry key="..\:/Users/mahes/AndroidStudioProjects/contactApp/app/src/main/res/layout/fragment_first.xml" value="0.2" />
+        <entry key="..\:/Users/mahes/AndroidStudioProjects/contactApp/app/src/main/res/layout/fragment_second.xml" value="0.2" />
+        <entry key="..\:/Users/mahes/AndroidStudioProjects/contactApp/app/src/main/res/layout/row_model.xml" value="0.44583333333333336" />
+        <entry key="..\:/Users/mahes/AndroidStudioProjects/contactApp/app/src/main/res/menu/edit_menu.xml" value="0.2" />
+        <entry key="..\:/Users/mahes/AndroidStudioProjects/contactApp/app/src/main/res/menu/main_menu.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
